@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+div{
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid red;
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 25px;
+    margin: 20%;
+    margin-top: 100px;
+}
+.grid1{
+    grid-column-start: 1;
+    grid-column-end:5;
+    text-align: start;
+}
+.result{
+    grid-column-start:3 ;
+    grid-column-end:5;
+}
